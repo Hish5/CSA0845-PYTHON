@@ -1,8 +1,7 @@
-x = input("x=")
-w = ""
-for i in x:
-    w = i + w
-if (x == w):
-    print("true")
+str = 'aIbohPhoBiA'
+str = str.casefold()
+rev_str = reversed(str)
+if list(str) == list(rev_str):
+   print("The string is a palindrome.")
 else:
-    print("false")
+   print("The string is not a palindrome.")
